@@ -1,0 +1,28 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "question": "Who is the president of Nigeria",
+        "options": ["Buhari", "Tinubu", "Sani Abacha", "Akpabio"],
+        "answer": "Tinubu"
+      },
+      {
+        "id": 2,
+        "question": "How many bones are in the human body",
+        "options": ["100", "250", "206", "300"],
+        "answer": "206"
+      },
+      {
+        "id": 3,
+        "question": "Which among the following is not a type of pollution",
+        "options": ["Air", "Water", "Noise", "Gas"],
+        "answer": "Gas"
+      },
+      {
+        "id": 4,
+        "question": "Who is the current president of the United States",
+        "options": ["Bill Gates", "George Washington", "Joe Biden", "Donald Trump"],
+        "answer": "Joe Biden"
+      }
+    ]
+  }

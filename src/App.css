@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+      --blue: #5e72e4;
+      --indigo: #5603ad;
+      --purple: #8965e0;
+      --pink: #e77bce;
+      --red: #f5365c;
+      --orange: #fb6340;
+      --yellow: #ffd600;
+      --green: #2dce89;
+      --teal: #ef11c3;
+      --cyan: #2bffc6;
+      --gray-medium: #a0a0a0;
+      --gray-medium-2: #787878;
+      --gray-dark: #32325d;
+      --lighter: #e9ecef;
+      --primary: #e45ec5;
+      --secondary: #f7fafc;
+      --success: #3DC13C;
+      --info: #ef11c3;
+      --warning: #fb6340;
+      --danger: #f5365c;
+      --light: #adb5bd;
+      --dark: #212529;
+      --default: #fff0fc;
+      --default-1: #ffdcf7;
+      --white: #fff;
+      --neutral: #fbfbfb;
+      --darker: black;
+      /* --breakpoint-xs: 0;
+      --breakpoint-sm: 576px;
+      --breakpoint-md: 768px;
+      --breakpoint-lg: 992px;
+      --breakpoint-xl: 1200px; */
+      /* --font-family-sans-serif: Open Sans, sans-serif;
+      --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+    }
+   
+  
+    h1,h2,h3,h4,h5,h6{
+      @apply text-gray-900
+    }
+    p, table td, label{
+      @apply text-gray-500 font-normal text-left
+    }
+    table th, input{
+      @apply text-gray-900 text-left
+    }
+    a{
+      @apply hover:text-violet-600 text-gray-100
+    }
+    input[type="file"]{
+      @apply w-full
+    }
+  }
+
+  .loader2 {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  animation: l20-1 0.8s infinite linear alternate, l20-2 1.6s infinite linear;
+}
+
+@keyframes l20-1 {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+  }
+
+  12.5% {
+    clip-path: polygon(
+      50% 50%,
+      0 0,
+      50% 0%,
+      100% 0%,
+      100% 0%,
+      100% 0%,
+      100% 0%
+    );
+  }
+
+  25% {
+    clip-path: polygon(
+      50% 50%,
+      0 0,
+      50% 0%,
+      100% 0%,
+      100% 100%,
+      100% 100%,
+      100% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      50% 50%,
+      0 0,
+      50% 0%,
+      100% 0%,
+      100% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+
+  62.5% {
+    clip-path: polygon(
+      50% 50%,
+      100% 0,
+      100% 0%,
+      100% 0%,
+      100% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+
+  75% {
+    clip-path: polygon(
+      50% 50%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+
+  100% {
+    clip-path: polygon(
+      50% 50%,
+      50% 100%,
+      50% 100%,
+      50% 100%,
+      50% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+}
+
+@keyframes l20-2 {
+  0% {
+    transform: scaleY(1) rotate(0deg);
+  }
+
+  49.99% {
+    transform: scaleY(1) rotate(135deg);
+  }
+
+  50% {
+    transform: scaleY(-1) rotate(0deg);
+  }
+
+  100% {
+    transform: scaleY(-1) rotate(-135deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+  border-radius: 10px !important;
+  cursor: default !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a8a8a8 !important;
+  border-radius: 10px !important;
+  height: 40px !important;
+  border: 3px solid transparent !important;
+  background-clip: content-box !important;
+}
