@@ -1,0 +1,18 @@
+{
+  "/api/popular": "/quiz?popular=true&_sort=plays&_order=desc",
+  "/api/trending": "/quiz?_sort=plays&_order=desc&_limit=10",
+  "/api/featured": "/quiz?featured=true&_sort=rating&_order=desc",
+  "/api/newest": "/quiz?_sort=createdAt&_order=desc&_limit=10",
+  "/api/top-rated": "/quiz?rating_gte=4.5&_sort=rating&_order=desc",
+  "/api/easy": "/quiz?difficulty=easy&_sort=plays&_order=desc",
+  "/api/medium": "/quiz?difficulty=medium&_sort=plays&_order=desc",
+  "/api/hard": "/quiz?difficulty=hard&_sort=plays&_order=desc",
+  "/api/science": "/quiz?category=Science&_sort=plays&_order=desc",
+  "/api/math": "/quiz?category=Math&_sort=plays&_order=desc",
+  "/api/technology": "/quiz?category=Technology&_sort=plays&_order=desc",
+  "/api/history": "/quiz?category=History&_sort=plays&_order=desc",
+  "/api/geography": "/quiz?category=Geography&_sort=plays&_order=desc",
+  "/api/search/:term": "/quiz?q=:term",
+  "/api/categories": "/quiz?_sort=category&_order=asc",
+  "/api/stats": "/quiz"
+}
