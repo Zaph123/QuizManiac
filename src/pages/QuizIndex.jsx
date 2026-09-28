@@ -5,10 +5,10 @@ import {
   FiClock,
   FiGrid,
 } from "react-icons/fi";
-import PageLoader from "../component/loaders/PageLoader";
-import QuizCard from "../component/QuizCard";
+import PageLoader from "../components/loaders/PageLoader";
+import QuizCard from "../components/QuizCard";
 import { categoryIcons } from "../utilis/helpers";
-import PopularQuizzes from "../component/homePage/PopularQuizzes";
+import PopularQuizzes from "../components/homePage/PopularQuizzes";
 
 const QuizIndex = () => {
   const [quizzes, setQuizzes] = useState([]);

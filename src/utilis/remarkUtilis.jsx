@@ -1,5 +1,5 @@
 import { FaCircleCheck, FaInfo } from "react-icons/fa6";
-import { TOTALSCORE } from "../config/constants";
+import { TOTALSCORE } from "../configs/constants";
 
 export const resultStyles = (score) => {
   let grade = "";

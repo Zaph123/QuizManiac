@@ -6,10 +6,10 @@ import {
   FiArrowRight,
 } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import Button from "../component/button/Button";
+import Button from "../components/button/Button";
 import { easing } from "../utilis/helpers";
 import useQuizApi from "../hooks/useQuiz";
-import PopularQuizzes from "../component/homePage/PopularQuizzes";
+import PopularQuizzes from "../components/homePage/PopularQuizzes";
 
 const Home = () => {
  

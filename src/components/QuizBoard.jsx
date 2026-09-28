@@ -11,7 +11,7 @@ import {
 import Button from "./button/Button";
 import QuestionsNav from "./navbar/QuestionsNav";
 import { Link, useParams } from "react-router-dom";
-import useQuizContext from "../context/QuizContext"
+import useQuizContext from "../contexts/QuizContext"
 
 const QuizBoard = () => {
   const [value, setValue] = useState(0);

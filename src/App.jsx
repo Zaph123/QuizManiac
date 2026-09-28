@@ -1,8 +1,8 @@
 import QuizIndex from "./pages/QuizIndex";
-import MainLayout from "./layout/MainLayout";
+import MainLayout from "./layouts/MainLayout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
-import QuizBoard from "./component/QuizBoard";
+import QuizBoard from "./components/QuizBoard";
 
 const router = createBrowserRouter([
   {

@@ -1,5 +1,5 @@
 import { useContext, createContext, useReducer } from "react";
-import { TOTALSCORE } from "../config/constants";
+import { TOTALSCORE } from "../configs/constants";
 
 const QuizContext = createContext();
 
